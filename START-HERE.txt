@@ -1,0 +1,22 @@
+NESTWELL - HOME LOAN FRONTEND
+
+1. Start MySQL and the refreshed HomeLoan_Backend application on port 8080.
+2. Install Node.js 22.12 or newer.
+3. Open PowerShell in this home-loan-frontend folder.
+4. Run:
+   node .\scripts\serve.mjs
+5. Open http://localhost:5173
+6. Log in using credentials from the backend's DEMO-LOGINS.local.txt.
+
+NO FRONTEND BUILD OR NPM INSTALL IS NEEDED FOR THIS QUICK START.
+The production build and a small local server are already included.
+
+For source development:
+   npm.cmd ci
+   npm.cmd run dev
+
+Use the refreshed backend ZIP delivered with this frontend. It includes a tested CORS fix.
+If upgrading an existing backend, preserve config/local.properties, your upload folder
+and MySQL data. Replace the source/JAR; do not run setup again.
+The default frontend proxy handles the API connection locally.
+Read README.md for port changes, direct CORS, role workflows and troubleshooting.

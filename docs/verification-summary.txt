@@ -1,0 +1,8 @@
+Verified 17 November 2026
+Frontend production build: PASS
+Frontend unit tests: 11 PASS
+Browser scenarios against real packaged Java/MySQL backend: 6 PASS
+Backend H2 tests: 22 PASS
+Backend MySQL tests: 22 PASS
+Direct browser CORS request and same-origin proxy: PASS
+See VERIFICATION.md for environment, coverage, repeatable instructions and limits.
